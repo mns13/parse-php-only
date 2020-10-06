@@ -7,7 +7,7 @@ require_once "helper.php";
 $productArr = array();
 $comments = array();
 
-// TODO: we need all products links from https://www.amazon.com/gp/bestsellers
+//get all products links from https://www.amazon.com/gp/bestsellers
 $linksArr = array();
 
 $data = curl_get('https://www.amazon.com/gp/bestsellers');
